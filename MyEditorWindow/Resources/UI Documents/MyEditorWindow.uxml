@@ -1,0 +1,4 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/MyEditorWindow/Resources/Style/MyEditorWindow.uss?fileID=7433441132597879392&amp;guid=9d765c7ced8a02c4594b363b4bba2fd2&amp;type=3#MyEditorWindow"/>
+    <ui:Label text="To add custom UI elements, open your UXML file with the UI Toolkit &quot;UI Builder&quot; &#10;by double clicking the following file in your Project tab: &#10;&quot;MyEditorWindow/Resources/UI Documents/MyEditorWindow.uxml&quot;&#10;"/>
+</ui:UXML>

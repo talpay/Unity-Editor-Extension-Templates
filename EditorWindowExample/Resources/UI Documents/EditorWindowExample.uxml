@@ -1,0 +1,14 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/EditorWindowExample/Resources/Style/EditorWindowExample.uss?fileID=7433441132597879392&amp;guid=47c8d08e0a8956c4ab7c5f448ab35efd&amp;type=3#EditorWindowExample"/>
+    <ui:Label text="Label" name="title"/>
+    <ui:Label text="Label" name="description"/>
+    <uie:ColorField label="Color" value="rgb(0, 255, 255)" name="color"/>
+    <ui:DropdownField label="Dropdown" name="texture-option" choices="Generate New Texture,Load Texture"/>
+    <ui:VisualElement name="ve1" style="flex-grow: 0;">
+        <ui:Slider label="Slider" value="42" high-value="100"/>
+        <ui:Toggle label="Toggle"/>
+        <ui:Toggle label="Toggle"/>
+        <ui:MultiColumnListView columns="" sort-column-descriptions=""/>
+    </ui:VisualElement>
+    <ui:Label text="Everything below is created programmatically in EditorWindowExample.css&#10;Open the Console to test these elements:" name="end-of-uib"/>
+</ui:UXML>
