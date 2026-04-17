@@ -6,14 +6,16 @@ This repo provides simple templates for anyone who wants to start developing cus
 
 | Template Name | Description |
 | ------------- | ------------- |
-| MyEditorWindow  | Minimal template for creating a custom UI Window.  |
-| EditorWindowExample  | Example template showing basic UI elements and callbacks. Mixture of UI elements created in C# and with UI Builder. |
+| [MyEditorWindow](./MyEditorWindow/README.md)  | Minimal template for creating a custom UI Window.  |
+| [EditorWindowExample](./EditorWindowExample/README.md)   | Example template showing basic UI elements and callbacks. Mixture of UI elements created in C# and with UI Builder. |
 
 
 ## ✅ Getting Started
 
-To use a template, copy the folder (e.g. ``MyEditorWindow``) into the ``Assets/`` folder of your Project.<br>
-It can then be opened from Unity's menu bar via ``Tools/[Template Name]``.
+To use a template, copy the folder (e.g. ``MyEditorWindow``) into the ``Assets/`` folder of your Project.
+It can then be opened from Unity's menu bar via ``Tools/[Template Name]``:
+
+![](./img/MenuBar.png)
 
 ## 📖 Further reading
 
